@@ -64,7 +64,7 @@ layout: default
     <h2 class="about-section-title">About Me</h2>
     <div class="about-bio">{{ content }}</div>
 
-    {% if page.announcements and page.announcements.enabled %}
+    {% if page.news or page.announcements and page.announcements.enabled %}
       <h2 class="about-section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
