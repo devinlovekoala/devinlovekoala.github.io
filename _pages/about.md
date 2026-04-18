@@ -8,11 +8,19 @@ profile:
   align: left
   image: prof_pic_color.png
   image_circular: true
+  more_info: >
+    <p>Yuxuan Liu (刘宇轩)</p>
+    <p>Undergrad · BUPT</p>
 
-news: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
 selected_papers: false
 social: true
-latest_posts: false
+latest_posts:
+  enabled: false
 ---
 
 I build research-grade RAG systems and study the failure modes that
