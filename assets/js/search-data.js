@@ -398,7 +398,25 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-noisefilter-rag",
+            },},{id: "news-zhaoxi-platform-deployed-to-500-faculty-and-students-at-bupt-end-to-end-rag-latency-1-5s-human-evaluated-accuracy-82-73-retention-rate",
+          title: 'ZhaoXi platform deployed to 500+ faculty and students at BUPT. End-to-end RAG latency...',
+          description: "",
+          section: "News",},{id: "news-2nd-prize-ict-industry-education-integration-innovation-contest-2024-team-lead-amp-amp-technical-director",
+          title: '🥈 2nd Prize — ICT Industry-Education Integration Innovation Contest 2024. Team Lead &amp;amp;amp;...',
+          description: "",
+          section: "News",},{id: "news-zhaoxi-awarded-1st-prize-beijing-at-china-collegiate-computing-contest-2024-and-2nd-prize-beijing-at-china-international-innovation-competition-2024",
+          title: 'ZhaoXi awarded 🥇 1st Prize (Beijing) at China Collegiate Computing Contest 2024 and...',
+          description: "",
+          section: "News",},{id: "news-circuitmodalprocessor-implemented-and-integrated-into-rag-anything-framework-comparison-experiments-in-progress",
+          title: 'CircuitModalProcessor implemented and integrated into RAG-Anything framework. Comparison experiments in progress.',
+          description: "",
+          section: "News",},{id: "news-noisefilter-rag-stage-1-complete-graph-strict-precision-improved-from-0-15-0-22-on-formal-benchmark",
+          title: 'NoiseFilter-RAG Stage 1 complete. Graph strict precision improved from 0.15 → 0.22 on...',
+          description: "",
+          section: "News",},{id: "news-noisefilter-rag-stage-2-underway-targeting-root-causes-chunk-entity-binding-gate-p0-relation-directionality-preservation-p1-and-nli-signal-recalibration-p1",
+          title: 'NoiseFilter-RAG Stage 2 underway. Targeting root causes: chunk-entity binding gate (P0), relation directionality...',
+          description: "",
+          section: "News",},{id: "projects-noisefilter-rag",
           title: 'NoiseFilter-RAG',
           description: "Graph noise diagnosis and confidence-aware retrieval for LightRAG",
           section: "Projects",handler: () => {
@@ -442,7 +460,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv.pdf", "_blank");
+          window.open("/assets/pdf/Yuxuan_Liu_CV_AI_Research.pdf", "_blank");
         },
       },{
       id: 'light-theme',
