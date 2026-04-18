@@ -397,8 +397,8 @@ ninja.data = [{
           section: "News",},{id: "news-2nd-prize-ict-industry-education-integration-innovation-contest-2024-team-lead-amp-amp-technical-director",
           title: '🥈 2nd Prize — ICT Industry-Education Integration Innovation Contest 2024. Team Lead &amp;amp;amp;...',
           description: "",
-          section: "News",},{id: "news-zhaoxi-awarded-1st-prize-beijing-at-china-collegiate-computing-contest-2024-and-2nd-prize-beijing-at-china-international-innovation-competition-2024",
-          title: 'ZhaoXi awarded 🥇 1st Prize (Beijing) at China Collegiate Computing Contest 2024 and...',
+          section: "News",},{id: "news-zhaoxi-awarded-1st-prize-beijing-at-china-collegiate-computing-contest-2024",
+          title: 'ZhaoXi awarded 🥇 1st Prize (Beijing) at China Collegiate Computing Contest 2024.',
           description: "",
           section: "News",},{id: "news-circuitmodalprocessor-implemented-and-integrated-into-rag-anything-framework-comparison-experiments-in-progress",
           title: 'CircuitModalProcessor implemented and integrated into RAG-Anything framework. Comparison experiments in progress.',
@@ -408,6 +408,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-noisefilter-rag-stage-2-underway-targeting-root-causes-chunk-entity-binding-gate-p0-relation-directionality-preservation-p1-and-nli-signal-recalibration-p1",
           title: 'NoiseFilter-RAG Stage 2 underway. Targeting root causes: chunk-entity binding gate (P0), relation directionality...',
+          description: "",
+          section: "News",},{id: "news-zhaoxi-awarded-2nd-prize-beijing-at-china-international-innovation-competition-2025",
+          title: 'ZhaoXi awarded 🥈 2nd Prize (Beijing) at China International Innovation Competition 2025.',
           description: "",
           section: "News",},{id: "projects-noisefilter-rag",
           title: 'NoiseFilter-RAG',
@@ -424,6 +427,11 @@ ninja.data = [{
           description: "AI platform for electronics education — RAG, multimodal processing, and distillation-inspired knowledge injection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_zhaoxiplatform/";
+            },},{id: "projects-smart-video-ecosystem-analyzer",
+          title: 'Smart Video Ecosystem Analyzer',
+          description: "Five-pass multimodal analysis and weighted ecosystem scoring for short-form video platforms, powered by ByteDance Seed1.5-VL",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_douyin_analyzer/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
