@@ -2,7 +2,7 @@
 layout: page
 title: CircuitModalProcessor
 description: Structure recovery for circuit schematics in RAG-Anything
-img: assets/img/circuit_cover.png
+img: assets/img/raganything-logo.png
 importance: 2
 category: research
 github: https://github.com/devinlovekoala/RAG-Anything
@@ -13,6 +13,12 @@ github: https://github.com/devinlovekoala/RAG-Anything
 RAG-Anything's native `ImageModalProcessor` captions images and injects the caption text into the knowledge graph. For circuit schematics, that means component values, net names, and topological connections disappear into prose — unavailable for precise entity-level retrieval.
 
 **CircuitModalProcessor** is a new processor in the RAG-Anything `1+3+N` framework that converts circuit diagrams into first-class KG entities and relations, building on the netlist recovery pipeline originally developed for ZhaoXi.
+
+<div class="row mt-3">
+  <div class="col-sm-4 offset-sm-4">
+    {% include figure.liquid path="assets/img/raganything-logo.png" class="img-fluid rounded z-depth-1" caption="Built on RAG-Anything (HKUDS)" %}
+  </div>
+</div>
 
 ---
 

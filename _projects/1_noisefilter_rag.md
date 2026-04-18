@@ -2,7 +2,7 @@
 layout: page
 title: NoiseFilter-RAG
 description: Graph noise diagnosis and confidence-aware retrieval for LightRAG
-img: assets/img/noisefilter_cover.png
+img: assets/img/lightrag_logo.png
 importance: 1
 category: research
 github: https://github.com/devinlovekoala/NoiseFilter-RAG
@@ -13,6 +13,12 @@ github: https://github.com/devinlovekoala/NoiseFilter-RAG
 LightRAG (EMNLP 2025) builds knowledge graphs via LLM-driven entity extraction. That extraction step hallucinates — introducing wrong edges, redundant neighbors, and polluted retrieval context that the original paper's answer-level evaluation does not directly expose.
 
 This project builds a full diagnostic and filtering layer on top of LightRAG's graph pipeline, turning it into a reproducible noise-governance study with confidence scoring, noise-aware retrieval, and intermediate diagnostics at graph level, judge level, and answer level.
+
+<div class="row mt-3">
+  <div class="col-sm-4 offset-sm-4">
+    {% include figure.liquid path="assets/img/lightrag_logo.png" class="img-fluid rounded z-depth-1" caption="Built on LightRAG (HKUDS, EMNLP 2025)" %}
+  </div>
+</div>
 
 ---
 

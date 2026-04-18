@@ -2,7 +2,7 @@
 layout: page
 title: ZhaoXi (昭析)
 description: AI platform for electronics education — RAG, multimodal processing, and distillation-inspired knowledge injection
-img: assets/img/zhaoxilogo.png
+img: assets/img/drawsee-homepage.png
 importance: 3
 category: engineering
 ---
@@ -12,6 +12,12 @@ category: engineering
 ZhaoXi is a vertical-domain AI system built for electronics courses at BUPT, integrating retrieval-augmented generation, multimodal data processing, and a distillation-inspired knowledge injection mechanism. It serves as both a deployed production system and the origin point for the research questions pursued in NoiseFilter-RAG and CircuitModalProcessor.
 
 **National-Level Innovation & Entrepreneurship Programme, BUPT · Apr 2024 – Present**
+
+<div class="row mt-3">
+  <div class="col-12">
+    {% include figure.liquid path="assets/img/drawsee-homepage.png" class="img-fluid rounded z-depth-1" caption="ZhaoXi platform — main interface" %}
+  </div>
+</div>
 
 ---
 
@@ -50,6 +56,27 @@ Input sources
 
 ---
 
+## Circuit Understanding
+
+A core capability of ZhaoXi is processing circuit schematics and simulation results as first-class knowledge sources, rather than treating them as unstructured images.
+
+<div class="row mt-3">
+  <div class="col-sm-6">
+    {% include figure.liquid path="assets/img/drawsee-circuit1.jpg" class="img-fluid rounded z-depth-1" caption="Circuit schematic parsing" %}
+  </div>
+  <div class="col-sm-6">
+    {% include figure.liquid path="assets/img/drawsee-circuit2.jpg" class="img-fluid rounded z-depth-1" caption="Component-level entity extraction" %}
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-12">
+    {% include figure.liquid path="assets/img/drawsee-digital-sim.png" class="img-fluid rounded z-depth-1" caption="Digital circuit simulation result — structured as knowledge graph input" %}
+  </div>
+</div>
+
+---
+
 ## Key Results
 
 | Metric | Value |
@@ -80,7 +107,7 @@ More practically, ZhaoXi also showed exactly where graph-structured knowledge ou
 | Backend | Spring Boot MVC |
 | Message queue | RabbitMQ, Redis Stream |
 | Deployment | Docker / Docker Compose |
-| LLM | Qwen-7B (fine-tuned with LoRA/QLoRA) |
+| LLM | Qwen3.5-9B (LoRA/QLoRA fine-tuned, Beta) · DeepSeek-V3.2 (671B API) |
 | Prompt engineering | Dynamic templates, history-aware context injection |
 
 ---
@@ -88,5 +115,5 @@ More practically, ZhaoXi also showed exactly where graph-structured knowledge ou
 ## Awards
 
 - 🥇 **1st Prize (Beijing)** — China Collegiate Computing Contest 2024 · Project Lead
-- 🥈 **2nd Prize (Beijing)** — China International Innovation Competition 2024 · Project Lead
+- 🥈 **2nd Prize (Beijing)** — China International Innovation Competition 2025 · Project Lead
 - 🥈 **2nd Prize** — ICT Industry-Education Integration Innovation Contest 2024 · Team Lead & Technical Director
