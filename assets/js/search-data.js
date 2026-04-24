@@ -419,7 +419,7 @@ ninja.data = [{
               window.location.href = "/projects/1_noisefilter_rag/";
             },},{id: "projects-circuitmodalprocessor",
           title: 'CircuitModalProcessor',
-          description: "Structure recovery for circuit schematics in RAG-Anything — Phase 1 validated with measurable task-level gains on op-amp and BJT domains",
+          description: "Structure recovery for circuit schematics in RAG-Anything — 80-question benchmark across 4 electronics topics, overall answer-quality +0.030 (hybrid vs. naive)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_circuit_modal_processor/";
             },},{id: "projects-zhaoxi-昭析",
