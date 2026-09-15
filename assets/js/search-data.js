@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Agent systems, evaluation infrastructure, and applied multimodal AI — from a deployed platform to ongoing research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
