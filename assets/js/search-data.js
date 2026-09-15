@@ -418,6 +418,11 @@ ninja.data = [{
           description: "Five-pass multimodal analysis and weighted ecosystem scoring for short-form video platforms, powered by ByteDance Seed1.5-VL",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_douyin_analyzer/";
+            },},{id: "projects-traceparse-a-candidate-graph-repair-framework-for-schematic-parsing",
+          title: 'TraceParse: A Candidate-Graph Repair Framework for Schematic Parsing',
+          description: "A repair-then-parse framework for schematic-to-netlist parsing — targeting CVPR 2027",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_traceparse/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
