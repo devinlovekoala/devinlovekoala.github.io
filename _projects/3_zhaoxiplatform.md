@@ -205,6 +205,95 @@ This foundation is what the self-improvement system and TestLab were later built
 
 ---
 
+<h2 class="i18n-en">Platform Capabilities</h2>
+<h2 class="i18n-zh">平台功能一览</h2>
+
+<div class="i18n-en" markdown="1">
+
+Beyond the agent and backend architecture above, Drawsee ships a full set of student- and instructor-facing tools for electronics education.
+
+</div>
+
+<div class="i18n-zh" markdown="1">
+
+除了上文的 Agent 与后端架构之外，昭析还面向学生与教师提供了一整套完整的电子电路教学工具。
+
+</div>
+
+<h3 class="i18n-en">Live Circuit Simulation &amp; Oscilloscope</h3>
+<h3 class="i18n-zh">实时电路仿真与虚拟示波器</h3>
+
+<div class="i18n-en" markdown="1">
+
+SPICE-level analog and digital simulation with a draggable virtual oscilloscope — students build a circuit, run the simulation, and probe live node voltages, currents, and waveforms in real time.
+
+</div>
+
+<div class="i18n-zh" markdown="1">
+
+SPICE 级模拟/数字电路仿真，搭配可拖拽的虚拟示波器——学生搭建电路、启动仿真后，可实时探测各节点电压、电流与波形。
+
+</div>
+
+<div class="row mt-3">
+  <div class="col-12">
+    {% include video.liquid path="assets/video/drawsee-circuit-scope-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true caption="<span class='i18n-en'>Real-time simulation with a virtual oscilloscope probing live circuit nodes</span><span class='i18n-zh'>实时仿真 + 虚拟示波器探测电路节点</span>" %}
+  </div>
+</div>
+
+<h3 class="i18n-en">Interactive Teaching Visualizations</h3>
+<h3 class="i18n-zh">交互式教学可视化</h3>
+
+<div class="i18n-en" markdown="1">
+
+A library of 27 interactive circuit-concept animations — from BJT load-line analysis to filter frequency response — with live, draggable parameters instead of static textbook figures.
+
+</div>
+
+<div class="i18n-zh" markdown="1">
+
+一个包含 27 个交互式电路概念动画的可视化备课库——从 BJT 负载线分析到滤波器频率响应——每一个都可以拖动参数实时观察变化，而不是教科书上的静态插图。
+
+</div>
+
+<div class="row mt-3">
+  <div class="col-12">
+    {% include video.liquid path="assets/video/drawsee-visualizer-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true caption="<span class='i18n-en'>BJT load-line visualization — drag bias resistors, watch the Q-point move live</span><span class='i18n-zh'>BJT 负载线可视化 —— 拖动偏置电阻，实时观察 Q 点移动</span>" %}
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-12">
+    {% include figure.liquid path="assets/img/drawsee-filter-visualizer.png" class="img-fluid rounded z-depth-1" caption="<span class='i18n-en'>Filter frequency-response visualizer — live Bode plot as cutoff frequency and Q change</span><span class='i18n-zh'>滤波器频率响应可视化 —— 截止频率与 Q 值变化时 Bode 图实时响应</span>" %}
+  </div>
+</div>
+
+<h3 class="i18n-en">AI-Assisted Experiment Prep</h3>
+<h3 class="i18n-zh">AI 实验预习</h3>
+
+<div class="i18n-en" markdown="1">
+
+Students upload a lab handout and Drawsee breaks it into a staged pre-lab workflow — knowledge prerequisites, sub-experiment breakdown, paper-design walkthrough, and hands-on execution notes — each stage expandable into a detailed, generated explanation.
+
+</div>
+
+<div class="i18n-zh" markdown="1">
+
+学生上传实验讲义后，昭析会自动将其拆解为分阶段的预习工作流——知识储备、子实验拆分、纸面设计讲解、实操落地要点——每个阶段都可以展开查看 AI 生成的详细解析。
+
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm-6">
+    {% include figure.liquid path="assets/img/drawsee-experiment-prep.png" class="img-fluid rounded z-depth-1" caption="<span class='i18n-en'>Upload a lab handout to start AI pre-lab prep</span><span class='i18n-zh'>上传实验讲义，启动 AI 预习</span>" %}
+  </div>
+  <div class="col-sm-6">
+    {% include figure.liquid path="assets/img/drawsee-experiment-history.png" class="img-fluid rounded z-depth-1" caption="<span class='i18n-en'>Staged pre-lab breakdown with expandable analysis</span><span class='i18n-zh'>分阶段预习拆解，可展开详细分析</span>" %}
+  </div>
+</div>
+
+---
+
 <h2 class="i18n-en">Product Metrics</h2>
 <h2 class="i18n-zh">产品数据</h2>
 

@@ -73,9 +73,15 @@ layout: default
         </a>
       {% endif %}
       {% if site.data.socials.cv_pdf %}
-        <a href="{{ site.data.socials.cv_pdf | relative_url }}">
+        <a class="i18n-en" href="{{ site.data.socials.cv_pdf | relative_url }}">
           <i class="fa-solid fa-file-pdf"></i>
-          <span class="i18n-en">CV</span><span class="i18n-zh">简历</span>
+          CV (EN)
+        </a>
+      {% endif %}
+      {% if site.data.socials.cv_pdf_zh %}
+        <a class="i18n-zh" href="{{ site.data.socials.cv_pdf_zh | relative_url }}">
+          <i class="fa-solid fa-file-pdf"></i>
+          简历（中文）
         </a>
       {% endif %}
     </div>
