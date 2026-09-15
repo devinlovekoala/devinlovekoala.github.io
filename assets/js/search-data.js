@@ -455,6 +455,13 @@ ninja.data = [{
           window.open("/assets/pdf/Yuxuan_Liu_Resume.pdf", "_blank");
         },
       },{
+        id: 'social-cv_pdf_zh',
+        title: 'Cv_pdf_zh',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
