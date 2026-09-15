@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Agent systems, evaluation infrastructure, and applied multimodal AI — from a deployed platform to ongoing research.
 nav: true
 nav_order: 2
 display_categories: [research, engineering]
