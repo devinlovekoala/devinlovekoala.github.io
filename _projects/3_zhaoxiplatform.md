@@ -165,16 +165,16 @@ Independently owned technology selection and platform build-out for the entire b
 
 </div>
 
-| <span class="i18n-en">Layer</span><span class="i18n-zh">分层</span> | <span class="i18n-en">Technology</span><span class="i18n-zh">技术方案</span> |
-|-------|-----------|
-| <span class="i18n-en">Model orchestration</span><span class="i18n-zh">模型编排</span> | Unified routing + dynamic context-budget management across Qwen / DeepSeek |
-| <span class="i18n-en">RAG pipeline</span><span class="i18n-zh">RAG 检索流水线</span> | Qdrant vector store + hybrid retrieval |
-| <span class="i18n-en">Async tasks</span><span class="i18n-zh">异步任务</span> | RabbitMQ, multiple worker types |
-| <span class="i18n-en">Streaming</span><span class="i18n-zh">流式传输</span> | Redis Stream + SSE |
-| <span class="i18n-en">Object storage</span><span class="i18n-zh">对象存储</span> | MinIO |
-| <span class="i18n-en">Migrations</span><span class="i18n-zh">数据库迁移</span> | Flyway (versioned) |
-| <span class="i18n-en">Auth</span><span class="i18n-zh">鉴权</span> | Sa-Token |
-| CI/CD | <span class="i18n-en">Multi-environment GitHub Actions pipelines</span><span class="i18n-zh">多环境 GitHub Actions 流水线</span> |
+| <span class="i18n-en">Layer</span><span class="i18n-zh">分层</span>                   | <span class="i18n-en">Technology</span><span class="i18n-zh">技术方案</span>                                                     |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="i18n-en">Model orchestration</span><span class="i18n-zh">模型编排</span> | Unified routing + dynamic context-budget management across Qwen / DeepSeek                                                       |
+| <span class="i18n-en">RAG pipeline</span><span class="i18n-zh">RAG 检索流水线</span>  | Qdrant vector store + hybrid retrieval                                                                                           |
+| <span class="i18n-en">Async tasks</span><span class="i18n-zh">异步任务</span>         | RabbitMQ, multiple worker types                                                                                                  |
+| <span class="i18n-en">Streaming</span><span class="i18n-zh">流式传输</span>           | Redis Stream + SSE                                                                                                               |
+| <span class="i18n-en">Object storage</span><span class="i18n-zh">对象存储</span>      | MinIO                                                                                                                            |
+| <span class="i18n-en">Migrations</span><span class="i18n-zh">数据库迁移</span>        | Flyway (versioned)                                                                                                               |
+| <span class="i18n-en">Auth</span><span class="i18n-zh">鉴权</span>                    | Sa-Token                                                                                                                         |
+| CI/CD                                                                                 | <span class="i18n-en">Multi-environment GitHub Actions pipelines</span><span class="i18n-zh">多环境 GitHub Actions 流水线</span> |
 
 <div class="i18n-en" markdown="1">
 
@@ -208,13 +208,13 @@ This foundation is what the self-improvement system and TestLab were later built
 <h2 class="i18n-en">Product Metrics</h2>
 <h2 class="i18n-zh">产品数据</h2>
 
-| <span class="i18n-en">Metric</span><span class="i18n-zh">指标</span> | <span class="i18n-en">Value</span><span class="i18n-zh">数值</span> |
-|--------|-------|
-| <span class="i18n-en">Active users</span><span class="i18n-zh">活跃用户</span> | <span class="i18n-en">500+ faculty and students</span><span class="i18n-zh">500+ 名师生</span> |
+| <span class="i18n-en">Metric</span><span class="i18n-zh">指标</span>                                       | <span class="i18n-en">Value</span><span class="i18n-zh">数值</span>                               |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| <span class="i18n-en">Active users</span><span class="i18n-zh">活跃用户</span>                             | <span class="i18n-en">500+ faculty and students</span><span class="i18n-zh">500+ 名师生</span>    |
 | <span class="i18n-en">Domain QA accuracy improvement</span><span class="i18n-zh">领域问答准确率提升</span> | <span class="i18n-en">+45% over base LLM</span><span class="i18n-zh">相较基座 LLM 提升 45%</span> |
-| <span class="i18n-en">End-to-end latency</span><span class="i18n-zh">端到端延迟</span> | ≤ 1.5s |
-| <span class="i18n-en">Human-evaluated accuracy</span><span class="i18n-zh">人工评测准确率</span> | 82% |
-| <span class="i18n-en">User retention</span><span class="i18n-zh">用户留存率</span> | 73% |
+| <span class="i18n-en">End-to-end latency</span><span class="i18n-zh">端到端延迟</span>                     | ≤ 1.5s                                                                                            |
+| <span class="i18n-en">Human-evaluated accuracy</span><span class="i18n-zh">人工评测准确率</span>           | 82%                                                                                               |
+| <span class="i18n-en">User retention</span><span class="i18n-zh">用户留存率</span>                         | 73%                                                                                               |
 
 ---
 

@@ -52,13 +52,13 @@ Rather than relying on a single generic prompt, video understanding is decompose
 
 </div>
 
-| <span class="i18n-en">Pass</span><span class="i18n-zh">分析通路</span> | <span class="i18n-en">What It Captures</span><span class="i18n-zh">捕捉的信号</span> |
-|------|-----------------|
-| <span class="i18n-en">Content Understanding</span><span class="i18n-zh">内容理解</span> | <span class="i18n-en">Theme, narrative, information density, audience profiling</span><span class="i18n-zh">主题、叙事结构、信息密度、受众画像</span> |
-| <span class="i18n-en">Visual Style Recognition</span><span class="i18n-zh">视觉风格识别</span> | <span class="i18n-en">Art style, color temperature, composition, production tier</span><span class="i18n-zh">画面风格、色温、构图、制作水准</span> |
-| <span class="i18n-en">Community Atmosphere</span><span class="i18n-zh">社区氛围</span> | <span class="i18n-en">Emotional valence, value orientation, health score, risk signals</span><span class="i18n-zh">情感倾向、价值导向、健康度评分、风险信号</span> |
-| <span class="i18n-en">Distribution Features</span><span class="i18n-zh">传播特征</span> | <span class="i18n-en">Viral triggers, engagement drivers, timeliness, scene matching</span><span class="i18n-zh">爆款触发点、互动驱动因素、时效性、场景匹配度</span> |
-| <span class="i18n-en">Multimodal Feature Extraction</span><span class="i18n-zh">多模态特征提取</span> | <span class="i18n-en">Cross-modal fusion: visual, motion, temporal, semantic, emotional</span><span class="i18n-zh">跨模态融合：视觉、运动、时序、语义、情感</span> |
+| <span class="i18n-en">Pass</span><span class="i18n-zh">分析通路</span>                                | <span class="i18n-en">What It Captures</span><span class="i18n-zh">捕捉的信号</span>                                                                                 |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="i18n-en">Content Understanding</span><span class="i18n-zh">内容理解</span>               | <span class="i18n-en">Theme, narrative, information density, audience profiling</span><span class="i18n-zh">主题、叙事结构、信息密度、受众画像</span>                |
+| <span class="i18n-en">Visual Style Recognition</span><span class="i18n-zh">视觉风格识别</span>        | <span class="i18n-en">Art style, color temperature, composition, production tier</span><span class="i18n-zh">画面风格、色温、构图、制作水准</span>                   |
+| <span class="i18n-en">Community Atmosphere</span><span class="i18n-zh">社区氛围</span>                | <span class="i18n-en">Emotional valence, value orientation, health score, risk signals</span><span class="i18n-zh">情感倾向、价值导向、健康度评分、风险信号</span>   |
+| <span class="i18n-en">Distribution Features</span><span class="i18n-zh">传播特征</span>               | <span class="i18n-en">Viral triggers, engagement drivers, timeliness, scene matching</span><span class="i18n-zh">爆款触发点、互动驱动因素、时效性、场景匹配度</span> |
+| <span class="i18n-en">Multimodal Feature Extraction</span><span class="i18n-zh">多模态特征提取</span> | <span class="i18n-en">Cross-modal fusion: visual, motion, temporal, semantic, emotional</span><span class="i18n-zh">跨模态融合：视觉、运动、时序、语义、情感</span>  |
 
 <div class="i18n-en" markdown="1">
 
@@ -114,20 +114,20 @@ Governance:   community_impact · content_safety
 
 </div>
 
-| <span class="i18n-en">Factor</span><span class="i18n-zh">因子</span> | <span class="i18n-en">Weight</span><span class="i18n-zh">权重</span> | <span class="i18n-en">Rationale</span><span class="i18n-zh">说明</span> |
-|--------|--------|-----------|
-| <span class="i18n-en">Viral Potential</span><span class="i18n-zh">传播潜力</span> | 25% | <span class="i18n-en">Primary driver of platform growth</span><span class="i18n-zh">平台增长的首要驱动因素</span> |
-| <span class="i18n-en">Engagement Potential</span><span class="i18n-zh">互动潜力</span> | 20% | <span class="i18n-en">Retention and interaction signal</span><span class="i18n-zh">留存与互动信号</span> |
-| <span class="i18n-en">Content Quality</span><span class="i18n-zh">内容质量</span> | 20% | <span class="i18n-en">Production standard and watch-completion proxy</span><span class="i18n-zh">制作水准与完播率的代理指标</span> |
-| <span class="i18n-en">Platform Fit</span><span class="i18n-zh">平台契合度</span> | 20% | <span class="i18n-en">Alignment with platform audience and norms</span><span class="i18n-zh">与平台受众和内容规范的契合程度</span> |
-| <span class="i18n-en">Audience Appeal</span><span class="i18n-zh">受众吸引力</span> | 15% | <span class="i18n-en">Target-demographic resonance</span><span class="i18n-zh">与目标人群的共鸣程度</span> |
+| <span class="i18n-en">Factor</span><span class="i18n-zh">因子</span>                   | <span class="i18n-en">Weight</span><span class="i18n-zh">权重</span> | <span class="i18n-en">Rationale</span><span class="i18n-zh">说明</span>                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="i18n-en">Viral Potential</span><span class="i18n-zh">传播潜力</span>      | 25%                                                                  | <span class="i18n-en">Primary driver of platform growth</span><span class="i18n-zh">平台增长的首要驱动因素</span>                  |
+| <span class="i18n-en">Engagement Potential</span><span class="i18n-zh">互动潜力</span> | 20%                                                                  | <span class="i18n-en">Retention and interaction signal</span><span class="i18n-zh">留存与互动信号</span>                           |
+| <span class="i18n-en">Content Quality</span><span class="i18n-zh">内容质量</span>      | 20%                                                                  | <span class="i18n-en">Production standard and watch-completion proxy</span><span class="i18n-zh">制作水准与完播率的代理指标</span> |
+| <span class="i18n-en">Platform Fit</span><span class="i18n-zh">平台契合度</span>       | 20%                                                                  | <span class="i18n-en">Alignment with platform audience and norms</span><span class="i18n-zh">与平台受众和内容规范的契合程度</span> |
+| <span class="i18n-en">Audience Appeal</span><span class="i18n-zh">受众吸引力</span>    | 15%                                                                  | <span class="i18n-en">Target-demographic resonance</span><span class="i18n-zh">与目标人群的共鸣程度</span>                         |
 
-| <span class="i18n-en">Score</span><span class="i18n-zh">评分</span> | <span class="i18n-en">Tier</span><span class="i18n-zh">等级</span> |
-|-------|------|
-| ≥ 0.75 | <span class="i18n-en">Strongly Recommended</span><span class="i18n-zh">强烈推荐</span> |
-| 0.65 – 0.74 | <span class="i18n-en">Recommended</span><span class="i18n-zh">推荐</span> |
-| 0.55 – 0.64 | <span class="i18n-en">Needs Optimization</span><span class="i18n-zh">待优化</span> |
-| < 0.55 | <span class="i18n-en">Not Recommended</span><span class="i18n-zh">不推荐</span> |
+| <span class="i18n-en">Score</span><span class="i18n-zh">评分</span> | <span class="i18n-en">Tier</span><span class="i18n-zh">等级</span>                     |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ≥ 0.75                                                              | <span class="i18n-en">Strongly Recommended</span><span class="i18n-zh">强烈推荐</span> |
+| 0.65 – 0.74                                                         | <span class="i18n-en">Recommended</span><span class="i18n-zh">推荐</span>              |
+| 0.55 – 0.64                                                         | <span class="i18n-en">Needs Optimization</span><span class="i18n-zh">待优化</span>     |
+| < 0.55                                                              | <span class="i18n-en">Not Recommended</span><span class="i18n-zh">不推荐</span>        |
 
 ---
 
@@ -167,13 +167,13 @@ Evaluation on **10 real Douyin short videos** across 7 content categories.
 
 </div>
 
-| <span class="i18n-en">Metric</span><span class="i18n-zh">指标</span> | <span class="i18n-en">Value</span><span class="i18n-zh">数值</span> |
-|--------|-------|
-| <span class="i18n-en">Analysis success rate</span><span class="i18n-zh">分析成功率</span> | **100%** (10/10) |
-| <span class="i18n-en">Average ecosystem score</span><span class="i18n-zh">平均生态评分</span> | **0.641** |
-| <span class="i18n-en">Highest score</span><span class="i18n-zh">最高评分</span> | **0.81** — <span class="i18n-en">Comedy Drama</span><span class="i18n-zh">喜剧短剧</span> |
-| <span class="i18n-en">Strongly Recommended (≥ 0.75)</span><span class="i18n-zh">强烈推荐（≥ 0.75）</span> | **2 / 10** |
-| <span class="i18n-en">Recommended or above (≥ 0.65)</span><span class="i18n-zh">推荐及以上（≥ 0.65）</span> | **6 / 10** |
+| <span class="i18n-en">Metric</span><span class="i18n-zh">指标</span>                                        | <span class="i18n-en">Value</span><span class="i18n-zh">数值</span>                       |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| <span class="i18n-en">Analysis success rate</span><span class="i18n-zh">分析成功率</span>                   | **100%** (10/10)                                                                          |
+| <span class="i18n-en">Average ecosystem score</span><span class="i18n-zh">平均生态评分</span>               | **0.641**                                                                                 |
+| <span class="i18n-en">Highest score</span><span class="i18n-zh">最高评分</span>                             | **0.81** — <span class="i18n-en">Comedy Drama</span><span class="i18n-zh">喜剧短剧</span> |
+| <span class="i18n-en">Strongly Recommended (≥ 0.75)</span><span class="i18n-zh">强烈推荐（≥ 0.75）</span>   | **2 / 10**                                                                                |
+| <span class="i18n-en">Recommended or above (≥ 0.65)</span><span class="i18n-zh">推荐及以上（≥ 0.65）</span> | **6 / 10**                                                                                |
 
 <div class="i18n-en" markdown="1">
 
@@ -192,10 +192,10 @@ Evaluation on **10 real Douyin short videos** across 7 content categories.
 <h2 class="i18n-en">Tech Stack</h2>
 <h2 class="i18n-zh">技术栈</h2>
 
-| <span class="i18n-en">Component</span><span class="i18n-zh">组件</span> | <span class="i18n-en">Technology</span><span class="i18n-zh">技术方案</span> |
-|-----------|-----------|
-| <span class="i18n-en">Multimodal model</span><span class="i18n-zh">多模态模型</span> | Seed1.5-VL (ByteDance) |
-| <span class="i18n-en">Inference API</span><span class="i18n-zh">推理接口</span> | Volcengine (OpenAI-compatible) |
-| <span class="i18n-en">Video processing</span><span class="i18n-zh">视频处理</span> | OpenCV (cv2) |
-| <span class="i18n-en">Concurrency</span><span class="i18n-zh">并发模型</span> | Python `ThreadPoolExecutor` (16 workers) |
-| <span class="i18n-en">Runtime</span><span class="i18n-zh">运行环境</span> | Python 3.7+, Jupyter |
+| <span class="i18n-en">Component</span><span class="i18n-zh">组件</span>              | <span class="i18n-en">Technology</span><span class="i18n-zh">技术方案</span> |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| <span class="i18n-en">Multimodal model</span><span class="i18n-zh">多模态模型</span> | Seed1.5-VL (ByteDance)                                                       |
+| <span class="i18n-en">Inference API</span><span class="i18n-zh">推理接口</span>      | Volcengine (OpenAI-compatible)                                               |
+| <span class="i18n-en">Video processing</span><span class="i18n-zh">视频处理</span>   | OpenCV (cv2)                                                                 |
+| <span class="i18n-en">Concurrency</span><span class="i18n-zh">并发模型</span>        | Python `ThreadPoolExecutor` (16 workers)                                     |
+| <span class="i18n-en">Runtime</span><span class="i18n-zh">运行环境</span>            | Python 3.7+, Jupyter                                                         |

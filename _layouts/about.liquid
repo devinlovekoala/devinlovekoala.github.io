@@ -16,7 +16,9 @@ layout: default
 
     <h1 class="about-name">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span>{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span>
+        {%- if site.middle_name %} {{ site.middle_name }}{% endif %}
+        {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -81,16 +83,12 @@ layout: default
 
   <!-- Right content -->
   <main class="about-content">
-    <h2 class="about-section-title">
-      <span class="i18n-en">About Me</span><span class="i18n-zh">关于我</span>
-    </h2>
+    <h2 class="about-section-title"><span class="i18n-en">About Me</span><span class="i18n-zh">关于我</span></h2>
     <div class="about-bio">{{ content }}</div>
 
     {% if page.news or page.announcements and page.announcements.enabled %}
       <h2 class="about-section-title">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">
-          <span class="i18n-en">News</span><span class="i18n-zh">动态</span>
-        </a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit"> <span class="i18n-en">News</span><span class="i18n-zh">动态</span> </a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

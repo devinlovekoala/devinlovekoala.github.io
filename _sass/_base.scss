@@ -421,7 +421,9 @@ ul.task-list input[type="checkbox"] {
 
   .lang-toggle-label {
     opacity: 0.4;
-    transition: opacity 0.15s, font-weight 0.15s;
+    transition:
+      opacity 0.15s,
+      font-weight 0.15s;
   }
 }
 
@@ -1582,7 +1584,10 @@ mjx-container[jax="CHTML"][display="true"] {
   justify-content: center;
   margin-bottom: 1.2rem;
 
-  figure, p { margin: 0; }
+  figure,
+  p {
+    margin: 0;
+  }
 
   img.about-avatar {
     width: 170px;
@@ -1611,7 +1616,10 @@ mjx-container[jax="CHTML"][display="true"] {
 .about-org {
   font-size: 0.85rem;
   margin: 0.1rem 0 1.1rem;
-  a { color: var(--global-text-color-light); text-decoration: none; }
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+  }
 }
 
 .about-meta {
@@ -1654,14 +1662,16 @@ mjx-container[jax="CHTML"][display="true"] {
     align-items: center;
     gap: 0.75rem;
     padding: 0.65rem 1.1rem;
-    border: 1.5px solid rgba(0,0,0,0.13);
+    border: 1.5px solid rgba(0, 0, 0, 0.13);
     border-radius: 10px;
     color: var(--global-text-color);
     text-decoration: none;
     font-size: 0.92rem;
     font-weight: 500;
     background: transparent;
-    transition: border-color 0.18s, color 0.18s;
+    transition:
+      border-color 0.18s,
+      color 0.18s;
     text-align: left;
 
     &:hover {
@@ -1694,9 +1704,14 @@ mjx-container[jax="CHTML"][display="true"] {
   border-bottom: 2px solid var(--global-theme-color);
   display: inline-block;
 
-  &:first-child { margin-top: 0; }
+  &:first-child {
+    margin-top: 0;
+  }
 
-  a { color: inherit; text-decoration: none; }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 .about-bio {

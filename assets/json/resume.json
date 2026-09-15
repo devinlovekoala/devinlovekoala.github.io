@@ -108,7 +108,11 @@
       "name": "Languages",
       "name_zh": "编程语言",
       "icon": "fa-solid fa-code",
-      "keywords": ["Java (primary, 2+ years of engineering practice)", "Python", "Golang (hands-on experience with mainstream frameworks on side projects)"],
+      "keywords": [
+        "Java (primary, 2+ years of engineering practice)",
+        "Python",
+        "Golang (hands-on experience with mainstream frameworks on side projects)"
+      ],
       "keywords_zh": ["Java（主力语言，2+ 年工程实践）", "Python", "Golang（在个人项目中熟悉主流框架）"]
     },
     {
@@ -138,14 +142,41 @@
       "name": "Backend & Middleware",
       "name_zh": "后端与中间件",
       "icon": "fa-solid fa-server",
-      "keywords": ["Spring Boot", "MyBatis", "MySQL (Druid + Flyway)", "Redis (Redisson)", "RabbitMQ", "MinIO", "Qdrant", "Sa-Token", "FastAPI", "Gin / GoFiber"]
+      "keywords": [
+        "Spring Boot",
+        "MyBatis",
+        "MySQL (Druid + Flyway)",
+        "Redis (Redisson)",
+        "RabbitMQ",
+        "MinIO",
+        "Qdrant",
+        "Sa-Token",
+        "FastAPI",
+        "Gin / GoFiber"
+      ]
     },
     {
       "name": "Engineering Practices",
       "name_zh": "工程实践",
       "icon": "fa-solid fa-diagram-project",
-      "keywords": ["Git", "GitHub Actions CI/CD", "Spotless / Google Java Format", "JUnit + Testcontainers integration testing", "Exception handling & logging", "Multi-environment configuration", "Technical design docs"],
-      "keywords_zh": ["Git", "GitHub Actions CI/CD", "Spotless / Google Java Format", "JUnit + Testcontainers 集成测试", "异常处理与日志", "多环境配置", "技术设计文档"]
+      "keywords": [
+        "Git",
+        "GitHub Actions CI/CD",
+        "Spotless / Google Java Format",
+        "JUnit + Testcontainers integration testing",
+        "Exception handling & logging",
+        "Multi-environment configuration",
+        "Technical design docs"
+      ],
+      "keywords_zh": [
+        "Git",
+        "GitHub Actions CI/CD",
+        "Spotless / Google Java Format",
+        "JUnit + Testcontainers 集成测试",
+        "异常处理与日志",
+        "多环境配置",
+        "技术设计文档"
+      ]
     },
     {
       "name": "Systems",
