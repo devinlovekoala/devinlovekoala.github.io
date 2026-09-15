@@ -75,6 +75,25 @@
         "将验证器引导的搜索与效果知识蒸馏进小模型的参数中，使学生模型在无需大量高延迟工具调用的情况下，取得更高任务成功率与更准确的效果预测校准。",
         "目前处于实验验证中期阶段。"
       ]
+    },
+    {
+      "name": "TraceParse: A Candidate-Graph Repair Framework for Schematic Parsing",
+      "name_zh": "TraceParse：面向电路原理图解析的候选图修复框架",
+      "url": "",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "In progress — targeting CVPR 2027. Schematic-to-netlist parsing via a repair-then-parse framework.",
+      "summary_zh": "在研 —— 拟投稿 CVPR 2027。面向电路原理图转网表解析的先修复后解析框架。",
+      "highlights": [
+        "Identified that the dominant bottleneck in schematic-to-netlist parsing is not recognition accuracy but the structural unrepresentability of the candidate connectivity graph — the correct netlist does not exist anywhere in the candidate space.",
+        "Proposed a repair-then-parse framework: deterministic repair operators first make the candidate graph representable, then an exact parsing algorithm solves it, with machine-checkable structural certificates flagging genuine conflicts.",
+        "The repair module is decoupled from the underlying image perceiver and transfers across vision-language models of different scales. Core results are complete, targeting a CVPR submission in the coming months."
+      ],
+      "highlights_zh": [
+        "识别出电路原理图转网表解析任务的核心瓶颈并非识别精度，而是候选连接图存在结构性不可表示——正确网表根本不在候选空间内。",
+        "提出先修复后解析框架：先用一组确定性修复算子使候选图具备可表示性，再以精确解析算法求解，并用可机器验证的结构证书标记真实冲突。",
+        "修复模块与具体图像感知器解耦，可迁移到不同规模的视觉语言模型。论文主体已完成，拟于近期投稿 CVPR。"
+      ]
     }
   ],
   "awards": [
@@ -120,23 +139,24 @@
       "name_zh": "AI / Agent 工程",
       "icon": "fa-solid fa-robot",
       "keywords": [
+        "Agent-trajectory evaluation & deterministic replay",
         "LangChain4j agent tool orchestration & tool calling",
-        "Context token-budget management",
         "Structured-output design (Spec/Plan/Contract system)",
-        "RAG (chunking / hybrid retrieval / embeddings)",
-        "Prompt engineering",
-        "Agent-trajectory evaluation",
-        "SFT / GRPO / preference-learning training-data construction"
+        "RAG (retrieval-augmented generation)"
       ],
       "keywords_zh": [
-        "LangChain4j Agent 工具编排与调用",
-        "上下文 Token 预算管理",
+        "Agent 执行轨迹评测与确定性回放",
+        "LangChain4j Agent 工具编排与 Tool 调用",
         "结构化输出设计（Spec/Plan/Contract 体系）",
-        "RAG（分块 / 混合检索 / 向量嵌入）",
-        "Prompt 工程",
-        "Agent 轨迹评测",
-        "SFT / GRPO / 偏好学习训练数据构建"
+        "RAG 检索增强生成"
       ]
+    },
+    {
+      "name": "Post-Training Algorithms",
+      "name_zh": "后训练算法",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["SFT (supervised fine-tuning)", "GRPO (Group Relative Policy Optimization)", "OPD (On-Policy Distillation)"],
+      "keywords_zh": ["SFT（监督微调）", "GRPO（组相对策略优化）", "OPD（在线策略蒸馏）"]
     },
     {
       "name": "Backend & Middleware",
@@ -159,31 +179,8 @@
       "name": "Engineering Practices",
       "name_zh": "工程实践",
       "icon": "fa-solid fa-diagram-project",
-      "keywords": [
-        "Git",
-        "GitHub Actions CI/CD",
-        "Spotless / Google Java Format",
-        "JUnit + Testcontainers integration testing",
-        "Exception handling & logging",
-        "Multi-environment configuration",
-        "Technical design docs"
-      ],
-      "keywords_zh": [
-        "Git",
-        "GitHub Actions CI/CD",
-        "Spotless / Google Java Format",
-        "JUnit + Testcontainers 集成测试",
-        "异常处理与日志",
-        "多环境配置",
-        "技术设计文档"
-      ]
-    },
-    {
-      "name": "Systems",
-      "name_zh": "系统环境",
-      "icon": "fa-solid fa-terminal",
-      "keywords": ["Ubuntu 24.04 LTS", "Comfortable with everyday Bash usage"],
-      "keywords_zh": ["Ubuntu 24.04 LTS", "熟练使用日常 Bash 操作"]
+      "keywords": ["Git", "GitHub Actions CI/CD", "JUnit + Testcontainers integration testing", "Technical design docs"],
+      "keywords_zh": ["Git", "GitHub Actions CI/CD", "JUnit + Testcontainers 集成测试", "技术方案文档撰写"]
     }
   ]
 }

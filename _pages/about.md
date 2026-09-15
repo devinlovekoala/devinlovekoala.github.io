@@ -37,7 +37,7 @@ Drawsee integrates three systems I designed and built from scratch: a closed-loo
 
 <div class="i18n-en" markdown="1">
 
-Together with my advisor, I am now incubating [FORGE: Verifier as Teacher](/projects/2_forge_verifier_teacher/), a post-training method — targeting IJCAI-27 / AAAI-28 — that distills a deterministic verifier's counterfactual search into a student model's weights, so it can achieve verifier-quality judgment without expensive tool calls at deployment.
+Together with my advisor, I am now incubating [FORGE: Verifier as Teacher](/projects/2_forge_verifier_teacher/), a post-training method — targeting IJCAI-27 / AAAI-28 — that distills a deterministic verifier's counterfactual search into a student model's weights, so it can achieve verifier-quality judgment without expensive tool calls at deployment. I'm also working on [TraceParse](/projects/5_traceparse/), a "repair-then-parse" framework for schematic-to-netlist parsing — targeting CVPR 2027 — built around the finding that the real bottleneck is structural unrepresentability of the candidate graph, not recognition accuracy.
 
 My interests sit at the intersection of **agent evaluation**, **self-improving systems**, and **verifier-guided learning**. I am always happy to talk shop — feel free to reach out.
 
@@ -45,7 +45,7 @@ My interests sit at the intersection of **agent evaluation**, **self-improving s
 
 <div class="i18n-zh" markdown="1">
 
-目前我正与导师合作孵化 [FORGE: Verifier as Teacher](/projects/2_forge_verifier_teacher/) 项目——一种目标投稿 IJCAI-27 / AAAI-28 的后训练方法，将确定性验证器的反事实搜索能力蒸馏进学生模型的参数中，使其在部署阶段无需高延迟的工具调用即可具备验证器级别的判断能力。
+目前我正与导师合作孵化 [FORGE: Verifier as Teacher](/projects/2_forge_verifier_teacher/) 项目——一种目标投稿 IJCAI-27 / AAAI-28 的后训练方法，将确定性验证器的反事实搜索能力蒸馏进学生模型的参数中，使其在部署阶段无需高延迟的工具调用即可具备验证器级别的判断能力。同时我也在推进 [TraceParse](/projects/5_traceparse/)——一个面向电路原理图转网表解析的"先修复后解析"框架，目标投稿 CVPR 2027，核心发现是该任务真正的瓶颈在于候选图的结构性不可表示，而非识别精度本身。
 
 我的兴趣聚焦于 **Agent 评测**、**自我进化系统** 与 **验证器引导学习** 的交叉领域。非常欢迎交流探讨——随时联系我。
 
