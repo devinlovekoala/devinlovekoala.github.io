@@ -2,96 +2,93 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yuxuan Liu
+    - name: Location
+      value: Beijing, China
+    - name: Homepage
+      value: <a href="https://drawsee.cn" target="_blank">drawsee.cn</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.Eng. in Telecommunications Engineering (In Progress)
+      institution: Beijing University of Posts and Telecommunications (BUPT), Beijing, China
+      year: 2023 - 2027
 
-- title: Experience
+- title: Core Project Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Founder & Backend Lead — <a href="https://drawsee.cn" target="_blank">Drawsee (昭析)</a>
+      institution: Personal Project
+      year: Mar. 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Sole backend owner from the first commit: over 330 commits, more than 90% of the repository's history. Tech stack — Spring Boot 3.4 + LangChain4j + Qdrant + MySQL + Redis + RabbitMQ + MinIO."
+        - title: Circuit-Design Agent Closed-Loop Workflow
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - "Plan → Generate → Structured Verification → Repair → Archive, verified by a deterministic simulator rather than model self-evaluation, with a stateless-pure-function termination policy."
+        - title: Drawsee Self-Improvement System
+          contents:
+            - "Issue discovery → candidate generation → canary validation → auto-promotion/rollback, judged by two-proportion sequential significance testing. Fixed three statistical/attribution defects in the prior implementation."
+        - title: In-House Agent Evaluation Harness (TestLab)
+          contents:
+            - "Deterministic-replay evaluation engine for step-by-step, fingerprint-compared replay of any Agent decision, plus a structured trace export pipeline for model-training data."
+        - title: Backend Foundation Architecture
+          contents:
+            - "Multi-model orchestration (Qwen/DeepSeek), Qdrant RAG pipeline, RabbitMQ async tasks, Redis Stream + SSE, MinIO, Flyway migrations, Sa-Token auth, multi-environment CI/CD."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research & Competitions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "FORGE: Verifier as Teacher"
+      institution: In progress — targeting IJCAI-27 / AAAI-28
+      year: 2025 - Present
+      description:
+        - "Working with my advisor, incubating a post-training method from Drawsee's circuit-design agent scenario: a deterministic verifier acts as a counterfactual teacher, constructing Verified Counterfactual Pairs (VCP) and distilling verifier-guided search knowledge into a small model's weights. Currently in mid-stage experimental validation."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - 2nd Prize, China International College Students' Innovation Competition ("Guochuang Cup", Beijing Region) — Drawsee
+    - year: 2024
       items:
-        - Max Planck Medal
+        - 1st Prize, China Collegiate Computer Design Competition (Beijing Region) — Drawsee
+        - 2nd Prize, National University-Industry ICT Education Integration Competition — Drawsee
+        - 1st Prize, 10th National College Physics Experiment Competition (Individual)
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Java (primary, 2+ years of engineering practice)
+        - Python
+        - Golang (hands-on experience with mainstream frameworks on side projects)
+    - title: AI / Agent Engineering
       items:
-        - Description 1.
-        - Description 2.
+        - LangChain4j agent tool orchestration & tool calling
+        - Context token-budget management
+        - Structured-output design (Spec/Plan/Contract system)
+        - RAG (chunking / hybrid retrieval / embeddings)
+        - Prompt engineering
+        - Agent-trajectory evaluation
+        - SFT / GRPO / preference-learning training-data construction
+    - title: Backend & Middleware
+      items:
+        - Spring Boot, MyBatis
+        - MySQL (Druid + Flyway)
+        - Redis (Redisson)
+        - RabbitMQ, MinIO, Qdrant
+        - Sa-Token, FastAPI, Gin/GoFiber
+    - title: Engineering Practices
+      items:
+        - Git, GitHub Actions CI/CD
+        - Spotless / Google Java Format
+        - JUnit + Testcontainers integration testing
+        - Exception handling & logging, multi-environment configuration, technical design docs
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Systems:</u> Ubuntu 24.04 LTS; comfortable with everyday Bash usage

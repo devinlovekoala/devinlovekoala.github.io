@@ -14,14 +14,23 @@ profile:
     <p>📧 liuyuxuanlovept@bupt.edu.cn</p>
     <p>📍 Beijing, China</p>
     <p>🎓 B.Eng. 2023 – 2027 (Expected)</p>
+    <p>🔗 <a href="https://drawsee.cn" target="_blank">drawsee.cn</a></p>
 
 news: true
 selected_papers: false
 social: true
 ---
 
-I am a third-year undergraduate in Telecommunications Engineering at [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/), where I am the project lead of the [ZhaoXi](https://github.com/devinlovekoala) platform — a National-Level Innovation & Entrepreneurship Programme building an AI system for electronics education. My research interest lies at the intersection of **retrieval-augmented generation**, **knowledge graph quality**, and **multimodal document understanding**.
+I am a third-year undergraduate in Telecommunications Engineering at [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/), and the founder & backend lead of [Drawsee (昭析)](https://drawsee.cn) — a complete AI Agent platform for circuit-design education, deployed to 500+ faculty and students. I have owned the entire backend from the first commit: over 330 commits, more than 90% of the repository's history.
 
-My current work extends two open-source projects from [Data Intelligence Lab @ HKU](https://sites.google.com/view/chaoh). In [NoiseFilter-RAG](https://github.com/devinlovekoala/NoiseFilter-RAG), I study how LLM-driven entity extraction introduces noise into knowledge graphs and build a full diagnostic and filtering layer on top of [LightRAG](https://github.com/HKUDS/LightRAG) (EMNLP 2025). In [CircuitModalProcessor](https://github.com/devinlovekoala/RAG-Anything), I extend [RAG-Anything](https://github.com/HKUDS/RAG-Anything) with a vertical-domain modal processor that converts circuit schematics into first-class knowledge graph entities, rather than losing structural information in image captions. Both projects trace directly back to engineering problems I encountered while building ZhaoXi — where I first discovered that flat-vector retrieval loses formal circuit structure, and that knowledge graph quality is a first-class concern, not just an implementation detail.
+Drawsee integrates three systems I designed and built from scratch: a closed-loop agent workflow (**Plan → Generate → Structured Verification → Repair → Archive**) that uses a deterministic simulator instead of model self-evaluation; a canary-gated self-improvement loop that clusters user feedback into optimization candidates and validates them with statistical significance testing; and **TestLab**, an in-house Agent evaluation harness built around a deterministic-replay engine that traces any Agent decision to its exact point of deviation.
 
-I am broadly interested in how structured knowledge representations can make large language model systems more reliable, interpretable, and domain-aware. I am always happy to discuss research — feel free to reach out.
+<div class="row mt-3">
+  <div class="col-sm-8 offset-sm-2">
+    {% include figure.liquid path="assets/img/drawsee-circuit-agent-demo.png" class="img-fluid rounded z-depth-1" caption="Drawsee's circuit-design agent workspace — see the full <a href='/projects/3_zhaoxiplatform/'>project page</a>" %}
+  </div>
+</div>
+
+Together with my advisor, I am now incubating [FORGE: Verifier as Teacher](/projects/2_forge_verifier_teacher/), a post-training method — targeting IJCAI-27 / AAAI-28 — that distills a deterministic verifier's counterfactual search into a student model's weights, so it can achieve verifier-quality judgment without expensive tool calls at deployment.
+
+My interests sit at the intersection of **agent evaluation**, **self-improving systems**, and **verifier-guided learning**. I am always happy to talk shop — feel free to reach out.

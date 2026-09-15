@@ -3,7 +3,7 @@ layout: page
 title: Smart Video Ecosystem Analyzer
 description: Five-pass multimodal analysis and weighted ecosystem scoring for short-form video platforms, powered by ByteDance Seed1.5-VL
 img: assets/img/douyin-video-logo.png
-importance: 4
+importance: 2
 category: engineering
 github: https://github.com/devinlovekoala/douyin-videos-smart-analyze-workflow
 ---
