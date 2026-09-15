@@ -1,0 +1,10 @@
+{%- case include.label -%}
+  {%- when 'about' -%}
+    <span class="i18n-en">about</span><span class="i18n-zh">关于</span>
+  {%- when 'projects' -%}
+    <span class="i18n-en">projects</span><span class="i18n-zh">项目</span>
+  {%- when 'news' -%}
+    <span class="i18n-en">news</span><span class="i18n-zh">动态</span>
+  {%- else -%}
+    {{- include.label -}}
+{%- endcase -%}

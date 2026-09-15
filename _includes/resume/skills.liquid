@@ -13,16 +13,30 @@
             {% endif %}
             <!-- Calculate colspan number for category title -->
             {% assign i = 1 %}
-            {% for item in content.items %}
+            {% for item in content.keywords %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
+            <td colspan="{{ i }}" class="list-group-category">
+              {% if content.name_zh %}
+                <span class="i18n-en">{{ content.name }}</span><span class="i18n-zh">{{ content.name_zh }}</span>
+              {% else %}
+                {{ content.name }}
+              {% endif %}
+            </td>
           </tr>
+          {% assign keywords_zh = content.keywords_zh %}
           {% for item in content.keywords %}
+            {% assign forloop_index0 = forloop.index0 %}
             <tr>
               <td></td>
               <td class="list-group-name">
-                <b>{{ item }}</b>
+                <b>
+                  {% if keywords_zh %}
+                    <span class="i18n-en">{{ item }}</span><span class="i18n-zh">{{ keywords_zh[forloop_index0] }}</span>
+                  {% else %}
+                    {{ item }}
+                  {% endif %}
+                </b>
               </td>
             </tr>
           {% endfor %}

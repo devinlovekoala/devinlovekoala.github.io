@@ -1,0 +1,8 @@
+{%- case include.category -%}
+  {%- when 'research' -%}
+    <span class="i18n-en">research</span><span class="i18n-zh">研究</span>
+  {%- when 'engineering' -%}
+    <span class="i18n-en">engineering</span><span class="i18n-zh">工程</span>
+  {%- else -%}
+    {{- include.category -}}
+{%- endcase -%}

@@ -49,7 +49,7 @@
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              {% include nav_label.liquid label=about_title %}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -108,7 +108,7 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    {% include nav_label.liquid label=p.title %}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -122,6 +122,16 @@
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          {% endif %}
+          {% if site.enable_language_toggle %}
+            <!-- Toggle EN / ZH -->
+            <li class="toggle-container">
+              <button id="lang-toggle" title="Switch language / 切换语言">
+                <span class="lang-toggle-label" id="lang-toggle-en">EN</span>
+                <span class="lang-toggle-sep">/</span>
+                <span class="lang-toggle-label" id="lang-toggle-zh">中</span>
               </button>
             </li>
           {% endif %}

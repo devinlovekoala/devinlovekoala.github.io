@@ -398,7 +398,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 #light-toggle,
-#search-toggle {
+#search-toggle,
+#lang-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -407,6 +408,37 @@ ul.task-list input[type="checkbox"] {
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+#lang-toggle {
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+
+  .lang-toggle-sep {
+    opacity: 0.35;
+    margin: 0 0.15rem;
+  }
+
+  .lang-toggle-label {
+    opacity: 0.4;
+    transition: opacity 0.15s, font-weight 0.15s;
+  }
+}
+
+:root[data-lang="en"] #lang-toggle-en,
+:root[data-lang="zh"] #lang-toggle-zh {
+  opacity: 1;
+  font-weight: 700;
+}
+
+// EN / ZH bilingual content toggle. Both language blocks are always in the
+// DOM (good for search engines); CSS shows only the active one.
+html:not([data-lang="zh"]) .i18n-zh {
+  display: none !important;
+}
+
+html[data-lang="zh"] .i18n-en {
+  display: none !important;
 }
 
 // Social (bottom)
@@ -1580,6 +1612,35 @@ mjx-container[jax="CHTML"][display="true"] {
   font-size: 0.85rem;
   margin: 0.1rem 0 1.1rem;
   a { color: var(--global-text-color-light); text-decoration: none; }
+}
+
+.about-meta {
+  margin-bottom: 1.1rem;
+
+  p {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin: 0.3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  i {
+    width: 1rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 .about-social-links {

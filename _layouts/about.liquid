@@ -22,8 +22,26 @@ layout: default
       {% endif %}
     </h1>
 
-    <p class="about-role">Founder & Backend Lead, Drawsee (昭析)</p>
+    <p class="about-role">
+      <span class="i18n-en">Founder & Backend Lead, Drawsee (昭析)</span>
+      <span class="i18n-zh">昭析（Drawsee）创始人 · 后端负责人</span>
+    </p>
     <p class="about-org"><a href="https://www.bupt.edu.cn/">BUPT</a></p>
+
+    <div class="about-meta">
+      <p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="i18n-en">Beijing, China</span><span class="i18n-zh">中国 · 北京</span>
+      </p>
+      <p>
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span class="i18n-en">B.Eng. 2023 – 2027 (Expected)</span><span class="i18n-zh">工学学士 · 2023 – 2027（预计）</span>
+      </p>
+      <p>
+        <i class="fa-solid fa-link"></i>
+        <a href="https://drawsee.cn" target="_blank" rel="noopener">drawsee.cn</a>
+      </p>
+    </div>
 
     <div class="about-social-links">
       {% if site.data.socials.scholar_userid %}
@@ -48,12 +66,14 @@ layout: default
       {% endif %}
       {% if site.data.socials.email %}
         <a href="mailto:{{ site.data.socials.email }}">
-          <i class="fa-solid fa-envelope"></i> Email
+          <i class="fa-solid fa-envelope"></i>
+          <span class="i18n-en">Email</span><span class="i18n-zh">邮箱</span>
         </a>
       {% endif %}
       {% if site.data.socials.cv_pdf %}
         <a href="{{ site.data.socials.cv_pdf | relative_url }}">
-          <i class="fa-solid fa-file-pdf"></i> CV
+          <i class="fa-solid fa-file-pdf"></i>
+          <span class="i18n-en">CV</span><span class="i18n-zh">简历</span>
         </a>
       {% endif %}
     </div>
@@ -61,19 +81,25 @@ layout: default
 
   <!-- Right content -->
   <main class="about-content">
-    <h2 class="about-section-title">About Me</h2>
+    <h2 class="about-section-title">
+      <span class="i18n-en">About Me</span><span class="i18n-zh">关于我</span>
+    </h2>
     <div class="about-bio">{{ content }}</div>
 
     {% if page.news or page.announcements and page.announcements.enabled %}
       <h2 class="about-section-title">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">
+          <span class="i18n-en">News</span><span class="i18n-zh">动态</span>
+        </a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     {% if page.selected_papers %}
       <h2 class="about-section-title">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
+          <span class="i18n-en">Selected Publications</span><span class="i18n-zh">代表性论文</span>
+        </a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

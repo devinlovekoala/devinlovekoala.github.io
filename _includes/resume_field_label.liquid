@@ -1,0 +1,16 @@
+{%- case include.key -%}
+  {%- when 'name' -%}
+    <span class="i18n-en">Name</span><span class="i18n-zh">姓名</span>
+  {%- when 'label' -%}
+    <span class="i18n-en">Label</span><span class="i18n-zh">身份</span>
+  {%- when 'email' -%}
+    <span class="i18n-en">Email</span><span class="i18n-zh">邮箱</span>
+  {%- when 'url' -%}
+    <span class="i18n-en">Url</span><span class="i18n-zh">主页</span>
+  {%- when 'summary' -%}
+    <span class="i18n-en">Summary</span><span class="i18n-zh">简介</span>
+  {%- when 'phone' -%}
+    <span class="i18n-en">Phone</span><span class="i18n-zh">电话</span>
+  {%- else -%}
+    {{- include.key | capitalize -}}
+{%- endcase -%}

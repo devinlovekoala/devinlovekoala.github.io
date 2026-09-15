@@ -12,8 +12,20 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+        <h2 class="card-title">
+          {% if project.title_zh %}
+            <span class="i18n-en">{{ project.title }}</span><span class="i18n-zh">{{ project.title_zh }}</span>
+          {% else %}
+            {{ project.title }}
+          {% endif %}
+        </h2>
+        <p class="card-text">
+          {% if project.description_zh %}
+            <span class="i18n-en">{{ project.description }}</span><span class="i18n-zh">{{ project.description_zh }}</span>
+          {% else %}
+            {{ project.description }}
+          {% endif %}
+        </p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">

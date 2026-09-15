@@ -73,7 +73,13 @@ layout: default
         {% endif %}
       </h1>
       {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        <p class="post-description">
+          {% if page.description_zh %}
+            <span class="i18n-en">{{ page.description }}</span><span class="i18n-zh">{{ page.description_zh }}</span>
+          {% else %}
+            {{ page.description }}
+          {% endif %}
+        </p>
       {% endif %}
     </header>
 
@@ -88,7 +94,7 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">{% include resume_section_label.liquid key=data[0] %}</h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}

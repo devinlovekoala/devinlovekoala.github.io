@@ -1,0 +1,28 @@
+{%- case include.key -%}
+  {%- when 'basics' -%}
+    <span class="i18n-en">Basics</span><span class="i18n-zh">基本信息</span>
+  {%- when 'education' -%}
+    <span class="i18n-en">Education</span><span class="i18n-zh">教育背景</span>
+  {%- when 'work' -%}
+    <span class="i18n-en">Work</span><span class="i18n-zh">工作经历</span>
+  {%- when 'projects' -%}
+    <span class="i18n-en">Projects</span><span class="i18n-zh">项目经历</span>
+  {%- when 'awards' -%}
+    <span class="i18n-en">Awards</span><span class="i18n-zh">荣誉奖项</span>
+  {%- when 'skills' -%}
+    <span class="i18n-en">Skills</span><span class="i18n-zh">技能</span>
+  {%- when 'volunteer' -%}
+    <span class="i18n-en">Volunteer</span><span class="i18n-zh">志愿经历</span>
+  {%- when 'certificates' -%}
+    <span class="i18n-en">Certificates</span><span class="i18n-zh">证书</span>
+  {%- when 'publications' -%}
+    <span class="i18n-en">Publications</span><span class="i18n-zh">发表论文</span>
+  {%- when 'languages' -%}
+    <span class="i18n-en">Languages</span><span class="i18n-zh">语言</span>
+  {%- when 'interests' -%}
+    <span class="i18n-en">Interests</span><span class="i18n-zh">兴趣</span>
+  {%- when 'references' -%}
+    <span class="i18n-en">References</span><span class="i18n-zh">推荐人</span>
+  {%- else -%}
+    {{- include.key | capitalize -}}
+{%- endcase -%}
